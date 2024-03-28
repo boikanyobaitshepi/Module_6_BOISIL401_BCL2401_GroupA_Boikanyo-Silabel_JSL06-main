@@ -38,7 +38,7 @@ function addToOrder(itemName) {
     orderItemsList.appendChild(listItem);
 
     // Update total price
-    const itemPrice = 10; // Assuming each item costs R10 for simplicity
+    const itemPrice = 27.50; // Assuming each item costs R10 for simplicity
     const currentTotal = parseFloat(orderTotalElement.textContent);
     const newTotal = currentTotal + itemPrice;
     orderTotalElement.textContent = newTotal.toFixed(2); // Display total with two decimal places
